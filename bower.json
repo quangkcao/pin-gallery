@@ -1,0 +1,27 @@
+{
+  "name": "pin-gallery",
+  "version": "0.0.1",
+  "authors": [
+    "Quang <quangkcao@gmail.com>"
+  ],
+  "description": "Pin Gallery",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.3",
+    "react": "~0.14.4",
+    "fancybox": "~2.1.5",
+    "jquery": "~2.1.4",
+    "react-router": "~1.0.3",
+    "react-router-component": "~0.18.2",
+    "requirejs": "~2.1.22"
+  }
+}

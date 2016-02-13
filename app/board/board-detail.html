@@ -1,0 +1,16 @@
+<div id="board" style="background-color:white">
+    <div class="card" *ngFor="#pin of pins, #i=index">
+        <div *ngIf="i==0">
+          <div class="box-cover-fixed text-center" style.backgroundImage="url({{pin.image}})">
+            <div class="board-name text-center inline-block">{{pin.board.name}}</div>
+          </div>
+          <div class="container-min pad">
+              {{pin.board.description}}
+          </div>
+        </div>
+        <div *ngIf="i>0" class="box-more">
+          <img src="{{pin.image}}" style="width:100%;"/>
+          <div class="container-min pad" style="padding-top:30px;" [innerHTML]="pin.description"></div>
+        </div>
+    </div>
+</div>
